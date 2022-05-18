@@ -537,7 +537,247 @@ footer {
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
+   @media only screen and (min-width: 768px) {
+    a {
+      font-size: 1.5em;
+    }
 
+    .navbar__toggleBtn {
+      right: 1.25em;
+      font-size: 2.5em;
+    }
+    /*Tablet styles here*/
+    
+    .content-wrapper {
+      margin: 4.6875em 0;
+    }
+  
+    p {
+      font-size: 2vmin;
+    }
+    /*========HOME PAGE: HERO AREA SECTION========*/
+  
+    .window {
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .window-area img {
+      width: 40%;
+      margin: 0 0 5em 0;
+    }
+  
+    .window-area h1 {
+      margin: 0;
+      font-size: 1.6em;
+    }
+  
+    .window-content {
+      flex-direction: row;
+      margin-top: 3.5em;
+      padding: 55px 25px;
+    }
+  
+    .window-banner{
+      width: 65%;
+    }
+  
+    .window-content figure {
+      width: 50%;
+    }
+    /* =========HOME PAGE: SERVICE SECTION========
+  
+    .service-area {
+      width: 100%;
+    }
+    .service-area .service-items {
+      flex: 0 1 30%;
+      justify-content: space-between;
+      height: 80%;
+    }
+    .service-area article {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: column wrap;
+      flex-basis: 30%;
+      height: 100%;
+      padding: 20px;
+    }
+  
+    .service-area .skill-item-description {
+      width: 80%;
+    } */
+    /*========SKILL AREA========*/
+ 
+  
+    /*========ABOUT AREA========*/
+  
+    .about article {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: row wrap;
+    }
+  
+    .about article div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: column nowrap;
+      width: 55%;
+    }
+  
+    /*=========FEATURED PROJECT SECTION=========*/
+    .featured-project article {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: row wrap;
+    }
+  
+    .featured-project article figure {
+      width: 49%;
+    }
+    .featured-project img {
+      width: 80%;
+    }
+  
+    .featured-project article div {
+      width: 39%;
+      padding: 1em;
+    }
+  
+    .featured-project h3 {
+      margin: 0;
+      font-size: 1.25em;
+    }
+    .featured-project h2 {
+      text-align: center;
+      margin-bottom: 1.5em;
+    }
+  
+    /*=======CONTACT SECTION=========*/
+  
+    .contact-section .content-wrapper {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-flow: row wrap;
+      margin-bottom: 2.5em;
+    }
+  
+    .contact-section figure {
+      display: flex;
+      justify-content: center;
+      width: 35%;
+    }
+  
+    .contact-info {
+      margin: 0;
+    }
+  
+    @media only screen and (min-width: 1200px) {
+      /* ========Nav container======== */
+  
+    .navbar {
+      justify-content: space-between;
+      align-items: center;
+      padding: 8px 12px;
+      flex-flow: row nowrap;
+    }
+  
+    /* Logo with text */
+    .navbar__logo {
+      font-size: 24px;
+      color: RGBA(168, 213, 203);
+    }
+  
+    .navbar__logo i {
+      color: RGBA(168, 213, 203);
+    }
+  
+    /* Menu */
+    .navbar__menu {
+      display: flex;
+      justify-content: center;
+      padding-left: 0;
+      list-style: none;
+      flex-direction: row;
+      width: 30%;
+    }
+  
+    .navbar__menu li {
+      padding: 8px 12px;
+    }
+  
+    .navbar__icons {
+      list-style: none;
+      color: RGB(168, 213, 203);
+      display: flex;
+      padding-left: 0;
+      font-size: 1.5em;
+    }
+  
+    /* Icons */
+    .navbar__icons li {
+      padding: 8px 12px;
+    }
+  
+    /* Toggle button */
+    .navbar__toggleBtn {
+      display: none;
+      position: absolute;
+      right: 32px;
+      font-size: 24px;
+      color: var(--accent-color);
+    }
+      
+      /*Desktop styles here*/
+      p{
+        font-size: 1.125em;
+      }
+      /*========WINDOW AREA========*/
+      .window {
+        max-width: 60%;
+      }
+      .window-area img {
+        width: 70%;
+      }
+    
+      .window-banner{
+        width: 65%;
+      }
+      .window-banner p{
+        font-size:1.25em;
+      }
+    
+      /*========SKILL AREA========*/
+      .skill-block{
+        width: 33%;
+        margin: 1.875em 1em 1.125em 1em;
+      }
+
+      /*========FEATURED PROJECTS========*/
+      .featured-project article {
+        margin-bottom: 3.5em;
+      }
+      .featured-project article div {
+        width: 30%;
+      }
+    
+      /*========CONTACT SECTION========*/
+      .contact-section h3 {
+        font-size: 2.5em;
+      }
+      .contact-section h4 {
+        font-size: 2.1em;
+      }
+      .social-icons {
+        width: 40%;
+      }
+    }
+    
 @media only screen and (min-width: 35em) {
   /* Style adjustments for viewports that meet the condition */
 }
