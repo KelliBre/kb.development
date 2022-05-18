@@ -3,8 +3,8 @@
 
 <head>
   <meta charset="utf-8">
-  <title></title>
-  <meta name="description" content="">
+  <title> KB Creative | Web Development</title>
+  <meta name="description" content="I am a Guam based Web Developer and Content Creator. Specializing in HTML, CSS, javaScript, and Wordpress for small businesses.">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <meta property="og:title" content="">
@@ -18,14 +18,149 @@
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
+    <!--Font Link for Hamburger Menu-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!--Font Awesome Links for Social Media-->
+  <script src="https://kit.fontawesome.com/fb7634f518.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lekton:ital,wght@0,400;0,700;1,400&family=Lexend+Tera&display=swap" rel="stylesheet">
 
   <meta name="theme-color" content="#fafafa">
 </head>
 
 <body>
+<!-- Nav container -->
+<nav class="navbar">
+  <!-- Logo with text -->
+  <div class="navbar__logo">
+    <a href="./index.html">Kb</a>
+  </div>
+  <!-- Menu -->
+  <ul class="navbar__menu">
+    <li><a href="./index.html">Home</a></li>
+    <li><a href="./portfolio/index.html">Portfolio</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <!-- Icons -->
+  <ul class="navbar__icons">
+    <li><a href="https://www.linkedin.com/in/kelli-brecunier/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+    <li><a href="https://github.com/KelliBre" target="_blank"><i class="fab fa-github-alt"></i></a></li>
+  </ul>
+  <!-- Toggle button -->
+  <a href="#" class="navbar__toggleBtn">
+    <i class="fas fa-bars"></i>
+  </a>
+</nav>
+<main>
+<section class= "window-area">
+  <div class ="content-wrapper">
+    <div class="window">
+  <div class="window-content">
+        <figure>
+         <img src="./img/wireless.png" alt="wireless icon">
+        </figure>
+        <div class="window-banner">
+          <h1> Hi, I'm <span class="name">Kelli</span> Brecunier.</h1>
+          <p>I am a FRONT-END DEVELOPER and creative thinker out of Talofofo, Guam. 🌴 </p>
+          <a href="#contact" class="button">CONTACT</a>
+        </div><!--Window banner END-->
+      </div><!--Window content END-->
+    </div><!--Window div END-->
+  </div><!--content-wrapper end-->
+</section><!--window-area end-->
+<section class="skill-area">
+  <h2>Skills + Services</h2>
+  <div class="content-wrapper">
+    <div class="skill-block">
+      <p> HTML5 & CSS3</p> 
+    </div>
+    <div class="skill-block">
+      <p> CSS</p> 
+    </div>
+    <div class="skill-block">
+      <p>JavaScript</p> 
+    </div>
+    <div class="skill-block">
+      <p>React </p> 
+    </div>
+    <div class="skill-block">
+      <p>PHP</p> 
+    </div>
+    <div class="skill-block">
+      <p>Wordpress</p> 
+    </div>
+    <div class="skill-block">
+      <p>Git and Github</p> 
+    </div>
+    <div class="skill-block">
+      <p> Responsive Development</p> 
+    </div>
+    <div class="skill-block">
+      <p> UX Experience</p> 
+    </div>
+  </div>
+</section>
 
-  <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
+<section id="about" class="about">
+  <div class="content-wrapper">
+    <article>
+        <div>
+          <h2> About Me</h2>
+          <p>I am from a small town in Georgia, but I have bounced between Guam and San Diego for most of my adult life and happily claim both as part of what makes me…well…me. When not at my keyboard you can find me somewhere near the water.</p>
+          <p>My approach to web development is simple. I like clean, semantic and accessible code that is ready for collaboration and growth.</p>
+        </div>
+    </article>
+   </div> 
+</section>
+<section id="project" class="featured-project">
+  <div class="content-wrapper">
+    <h2>Featured Project</h2>
+    <article>
+      <figure>
+        <a href="https://kellibre.github.io/unplugged-website/index.html" target="_blank">
+          <img src="./img/unplugged-pink-d1.png" alt="Unplugged Project Thumbnail">
+        </a>
+      </figure>
+        <div>
+          <h3>Unplugged Retreat</h3>
+          <p>A responsive HTML + CSS Website built from a designer's PSD mock up.</p>
+        </div>
+    </article>
+    <a href="#" class="button">MORE</a>
+   </div> 
+</section>
+<section class="contact-section">
+  <div class="content-wrapper">
+      <div class="contact-info">
+        <h4>Contact</h4>
+        <p>
+          <i class="fas fa-phone"></i> 671-486-5032
+        </p>
+        <p>
+          <i class="fas fa-envelope"></i> Kelli.Brecunier@gmail.com
+        </p>
+      </div>
+      <div class="social-links">
+        <h4>Social</h4> 
+        <p>
+          <a href="https://www.linkedin.com/in/kelli-brecunier/" target="_blank"><i class="fab fa-linkedin-in"></i></a> Kelli Brecunier
+        </p>
+        <p>
+          <a href="https://github.com/KelliBre" target="_blank"><i class="fab fa-github-alt"></i></a> Find me on GitHub
+        </p>
+        <p>
+          <a href="https://codepen.io/your-work/" target="_blank"><i class="fab fa-codepen"></i></a> Check out my CodePen
+        </p>
+      </div>
+  </div>
+</section>
+</main>
+<footer>
+<p>KB DEV || KB LLC // 2021</p> 
+</footer>
+
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
