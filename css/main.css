@@ -98,8 +98,8 @@ html {
 body {
   font-family: 'Lekton', sans-serif;
   font-size: 1em;
-  background: #152A3E;
-  color: #B4C7D9;
+  background: #fffdfa;
+  color: #28282B;
 }
 
 .content-wrapper {
@@ -109,7 +109,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #B4C7D9;
+  color: #28282B;
   font-size: 2em;
 }
 
@@ -146,7 +146,8 @@ h3 {
 
 h4 {
   font-size: 1.25em;
-  color: #152A3E;
+  margin: 0;
+  width: 100%;
 }
 
 h6 {
@@ -163,7 +164,7 @@ a.button {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  background: #E9B14C;
+  background: #c9c3e6;
   color: #152A3E;
   padding: 0.25em 0.5em;
   min-width: 15ch;
@@ -182,8 +183,8 @@ a.button:hover {
 .navbar {
   display: flex;
   padding: 8px 12px;
-  background: #152A3E;
-  color: #F8D697;
+  background: #fffdfa;
+  color: #28282B;
   flex-direction: column;
   padding: 8px 24px;
 }
@@ -314,8 +315,8 @@ a.button:hover {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  background: #F8D697;
-  color: #152A3E;
+  background: #6762a6;
+  color: #fffdfa;
   width: 80%;
   margin: 1.875em 0 1.125em 0;
   padding: 0.25em 0.5em
@@ -334,9 +335,8 @@ a.button:hover {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  background: 
-  #F7E8E8;
-  color: #152A3E;
+  background: #6762a6;
+  color: #fffdfa;
   clip-path: polygon(0 21%, 100% 7%, 100% 81%, 0 100%);
   padding: 50px 0;
 }
@@ -391,7 +391,7 @@ a.button:hover {
   align-items: center;
   flex-flow: row wrap;
   text-align: center;
-  background: #F7E8E8;
+  background: #c9c3e6;
   color: #152A3E;
 }
 
@@ -540,7 +540,9 @@ footer {
     a {
       font-size: 1.5em;
     }
-
+    h2{
+      margin: 3em 0 0 0;
+    }
     .navbar__toggleBtn {
       right: 1.25em;
       font-size: 2.5em;
@@ -862,5 +864,5 @@ footer {
   h3 {
     page-break-after: avoid;
   }
+  }
 }
-
